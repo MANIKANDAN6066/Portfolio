@@ -1,0 +1,376 @@
+<html><head>
+	<title>Manikandan Muthukumar<br> CAD Automation Engineer</title>
+	<link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel="icon" type="image/x-icon" href="hi.jpg">
+<style>
+	* {
+    		margin: 0;
+    		padding: 0;
+    		box-sizing: border-box;
+    		scroll-behavior: smooth;
+    		scroll-padding-top: 2rem;
+    		list-style: none;
+    		text-decoration: none;
+    		font-family: "Poppins", sans-serif;
+	}
+	section {
+    		padding: 30px 10%;
+		}
+	.home {
+    		width: 100%;
+    		min-height: 100vh;
+            background-image: url(https://th.bing.com/th/id/OIP.S6AEptm4c6byb23iPWHX8AHaC0?rs=1&pid=ImgDetMain);
+    		background-repeat: no-repeat;
+    		background-size: cover;
+    		background-position: right;
+    		background-attachment: fixed;
+    		display: flex;
+    		align-items:center;
+	      }
+	.logo {
+    		font-size: 1.2rem;
+    		font-weight: 600;
+    		color: var(--text-color);
+	      }
+	.logo span {
+    		color: var(--main-color);
+	      }
+	.home-text h1 {
+    		font-size: 2.8rem;
+	      }
+
+	.home-text p {
+    		font-size: 1rem;
+    		margin: 0.4rem 0 1.8rem;
+    		font-weight: 500;
+	     }
+
+	.home-text span {
+    		color: var(--main-color);
+	     }
+	.heading {
+    		text-align: center;
+	     }
+	.heading span {
+    		font-size: 14px;
+    		font-weight: 500;
+    		color: var(--main-color);
+    		text-transform: uppercase;
+	     }
+	.box {
+    		position: relative;
+    		box-shadow: 1px 4px 4px rgb(0, 0, 0, 0.1);
+    		border-radius: 8px 8px 8px 8px;
+	     }
+	.box .box-img {
+   		 width: 100%;
+    		height: 400px;
+    		overflow: hidden;
+    		border-radius: 8px 8px 0 0;
+	     }
+	.box .box-img img {
+    		width: 100%;
+    		height: 100%;
+    		object-fit: cover;
+    		object-position: center;
+             }
+	.box .box-img img:hover {
+    		transform: scale(1.1);
+    		transition: 0.5s;
+      	     }
+	header {
+    		position:absolute;
+    		width: 100%;
+    		top: 0;
+   		right: 0;
+    		display: flex;
+    		align-items: center;
+   		justify-content: space-between;
+   		padding: 18px 100px;
+    		background: #edecea;
+		}
+	.Container{
+		display: grid;
+   		grid-template-columns: repeat(auto-fit, minmax(300px, auto));
+    		gap: 1rem;
+    		margin-top: 2rem;
+		}
+	.navbar {
+    		position: relative;
+    		display: flex;
+		transform: scale(1.1);
+    		transition: 0.5s;
+		}
+
+	.navbar a {
+    		font-size: 1rem;
+    		padding: 10px 20px;
+    		font-weight: 500;
+    		color: var(--text-color);
+		}
+
+	.navbar a:hover {
+    		color: var(--main-color);
+		background: #CC00CC;
+		transform: scale(1.1);
+    		transition: 0.5s;
+		}
+	.contact {
+    		padding-top: 100px;
+    		display: grid;
+    		grid-template-columns: repeat(auto-fit, minmax(240px, auto));
+   		gap: 1rem;
+		}
+	.contact {
+    		display: flex;
+    		flex-direction: column;
+		}
+
+	.contact span {
+    		color: var(--text-color);
+		}
+
+        img {
+            border-radius: 50%;
+        }
+
+       
+
+        /* The actual timeline (the vertical ruler) */
+        .timeline {
+            position: relative;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+            /* The actual timeline (the vertical ruler) */
+            .timeline::after {
+                content: '';
+                position: absolute;
+                width: 6px;
+                background-color: black;
+                top: 0;
+                bottom: 0;
+                margin-left: -3px;
+            }
+
+        .dot {
+            height: 25px;
+            width: 25px;
+            background-color: #bbb;
+            border-radius: 50%;
+            display: inline-block;
+        }
+
+           
+
+   
+
+        
+        /* The actual content */
+        .content {
+            padding: 20px 30px;
+            background-color:white;
+            position: relative;
+            border-radius: 6px;
+            left:5%;
+        }
+
+        /* Media queries - Responsive timeline on screens less than 600px wide */
+
+
+        .column {
+            float: left;
+            width: 33.33%;
+            padding: 5px;
+        }
+
+        /* Clearfix (clear floats) */
+        .row::after {
+            content: "";
+            clear: both;
+            display: table;
+        }
+
+
+
+       
+
+     
+        
+</style></head>
+
+<body>
+	<header>
+        <img src="https://th.bing.com/th/id/OIP.S6AEptm4c6byb23iPWHX8AHaC0?rs=1&pid=ImgDetMain" width="200;" height="200;" alt="Avatar" />
+        
+		<a href="#" class="logo">Manikandan Muthukumar<br />CAD Automation Engineer</a>
+		<div class="bx-menu" id="menu-icon"></div>
+		<ul class="navbar">
+			<li><a href="#home">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#Contact">Education</a></li>
+            <li><a href="#contact">Contact</a></li>
+		</ul>
+	</header>
+	<section class="home" id="home">
+        	<div class="home-text">
+                <h1>CAD Automation Engineer</h1>
+            <p>I am a proficient CAD Automation and Customization Engineer with a one-year experience and strong focus on achieving outcomes, Strong Design and Integrated capabilities as well as problem Solving abilities. I have a proven track record of enhancing team performance, fostering customer loyalty, and cultivating collaborative alliances with internal and external stakeholders. Seeking a challenging role where I can leverage my expertise in CAD Automation to drive organizational success.</p>           		
+        	</div>
+    	</section>
+	<section class="project" id="projects">
+        <div class="container">
+            <h1 style="background-color:#0097B2">Projects &darr;</h1>
+        </div>
+	</section>
+    <section class="experience" id="project">
+        <p>Developing a CAD (Computer-Aided Design) plugin involves creating an extension or module that integrates with existing CAD software to enhance its functionality or add new features. The specific steps and requirements may vary depending on the CAD software you are targeting, as different CAD programs have different APIs (Application Programming Interfaces) and development environments. Here's a general guide on how you can approach CAD plugin development:</p>
+        <div class="row">
+            <div class="column">
+                <img src="https://linktek.com/wp-content/uploads/2019/11/linktek-color-logos_08-2-1.png" alt="Snow" style="width:100%">
+            </div>
+            <div class="column">
+                <img src="https://linktek.com/wp-content/uploads/2019/11/linktek-color-logos_08-2-1.png" alt="Forest" style="width:100%">
+            </div>
+            <div class="column">
+                <img src="https://linktek.com/wp-content/uploads/2019/11/linktek-color-logos_08-2-1.png" alt="Mountains" style="width:100%">
+            </div>
+        </div>
+    </section>
+
+    <section class="intro">
+        <div class="container">
+            <h1 style="background-color:#0097B2">Skills &darr;</h1>
+        </div>
+    </section>
+
+
+
+   
+    <section class="skills" id="skills">
+        <marquee behavior="scroll" direction="left">
+            <img src="https://linktek.com/wp-content/uploads/2019/11/linktek-color-logos_08-2-1.png" width="200px">
+            <img src="https://th.bing.com/th/id/OIP.XR8-GrDhzz2CBcHzQ9xNPgHaBw?w=1828&h=432&rs=1&pid=ImgDetMain" width="200px"
+                 >
+            <img src="https://financesonline.com/uploads/2020/06/Autodesk-Vault-logo1.png" width="200px">
+            <img src="https://iconape.com/wp-content/png_logo_vector/c.png" width="200px">
+            <img src="https://history-computer.com/wp-content/uploads/2021/01/shutterstock_1979820623-scaled.jpg" width="200px">
+            <img src="https://v5hlaywr.cdn.imgeng.in/images/posts/2019/12/aspnet_logo.png" width="200px">
+            <img src="https://th.bing.com/th/id/OIP.L62teVBu44-i5MkqBxuR3gHaD8?rs=1&pid=ImgDetMain" width="200px">
+            <img src="https://fiverr-res.cloudinary.com/images/t_main1,q_auto,f_auto,q_auto,f_auto/gigs/73254046/original/e9213cb40d58b8ba6b1bbd5e55bb846bcd4efd24/code-html-css-javascript-asp-php-for-you.jpg" width="200px">
+            <img src="https://www.go-applied.com/wp-content/uploads/2020/11/Autodesk-Inventor-iLogic-1536x1536.jpg" width="200px">
+            <img src="https://static.vecteezy.com/system/resources/previews/003/005/221/large_2x/api-application-programming-interface-illustration-vector.jpg" width="200px">
+            <img src="https://th.bing.com/th/id/R.1ec235c8e976347659cf12f9b895208b?rik=mYK7N39TJdwCzA&riu=http%3a%2f%2fsqlbak.com%2fblog%2fwp-content%2fuploads%2f2014%2f01%2fSQL.png&ehk=2o%2bKmNcipnpdJJFHDLI61qqAy8DK6XbFx241WTwOX54%3d&risl=&pid=ImgRaw&r=0" width="200px">
+            <img src="https://th.bing.com/th/id/R.0f0648ec8ac766a46bf134ac54b0482e?rik=JUJ%2b970czpo3nQ&riu=http%3a%2f%2fweblinkinfosystem.com%2fmedia%2ficons%2fWPFLogo-icon.png&ehk=A%2bXVluMwLcUinTPHahJKBm9k92jq3YHDtpERIzB9M6o%3d&risl=&pid=ImgRaw&r=0" width="200px">
+        </marquee>
+    </section>
+    <section class="intro">
+        <div class="container">
+            <h1 style="background-color:#0097B2">Experience &darr;</h1>
+        </div>
+    </section>
+    <section class="experience" id="experience">
+        <div class="timeline">
+            
+            <div class="content">
+                <h2>Evoqua Water Technologies</h2>
+                <h6>CAD Automation Engineer<br />February 2023 - Present</h6>
+                <p>Developed Custom CAD plugins and Standalone applications using Autodesk API like AutoCAD, Inventor and Vault. Designed and Developed the User Interface forms using WPF (MVVM & MVC) and Windows forms. Developed the product configurator using Inventor iLogic and parameters. Automates the design process to help the Design Engineers.</p>
+                <br />
+                <h3>Accomplishments:</h3>
+                <ul>
+                    <li>Got Special Mention Award (2022-2023) for dedicated efforts and contributions in Design Automation Projects.</li>
+                    <li>Developed and managed the AutoCAD Addin Tool specifically designed for electrical engineers (Standard Piping and Instrumentation Diagrams).</li>
+                    <li>Automate the process of downloading Drawing files from Autodesk Vault using Vault Webservices API.</li>
+                    <li>
+                        Automating the Pipe Design calculations using AutoCAD API.
+                    </li>
+                    <li>Developed the Power BI Dashboard using Python scripts which assists truck driver in locating the nearest chemical storage tank.</li>
+                    <li>Automated the tool for identifying duplicate tags in AutoCAD Piping Diagrams, resulting in a time savings of 1200 minutes per user per year.</li>
+                    <li>Developed the User Interface using HTML, CSS & JavaScript for simple design calculation.</li>
+                    <li>Automated the Microsoft Word Document for replacing words in multiple documents using Microsoft word API.</li>
+                    <li>Automated the Microsoft Excel for sales calculations using Microsoft excel API.</li>
+                    <li>Developed the LISP program for AutoCAD Automation.</li>
+                    <li>Developed the Product Configurator using Inventor Model Parameter.</li>
+
+                </ul>
+            </div>
+            
+            <div class="content">
+                <h2>Cognizant</h2>
+                <h6>Intern<br />September 2022 - February 2023</h6>
+                <p>Created and Executed Automation test Script using Selenium WebDriver, Java and TestNG. Associated with three projects and tested the Webpage, Web API using Selenium Java </p>
+                <br />
+                <h3>Accomplishments:</h3>
+                <ul>
+                    <li>Developed Test Scenario and Test Cases for testing the Web page. Created Automation Scripts using Java, TestNG Framework.</li>
+                    <li>Conducted testing on the Web API, captured the responses in an Excel file, and generated the test report.</li>
+                    <li>Hands on Experience in crafting test cases.</li>
+                    <li>
+                        Executed the test scripts, ensuring that the same set of tests is performed in the same manner every time.
+                    </li>
+                    
+
+                </ul>
+            </div>
+           
+            
+        </div>
+    </section>
+    <section class="intro">
+        <div class="container">
+            <h1 style="background-color:#0097B2">Experience &darr;</h1>
+        </div>
+    </section>
+    <section class="experience" id="education">
+        <div class="timeline">
+
+            <div class="content">
+                <h2>Saranathan College of Engineering , Tiruchirappalli</h2>
+                <h6>Bachelor of Engineering in Mechanical Engineering with 8.9 CGPA<br />2018-2022</h6>
+            </div>
+
+            <div class="content">
+                <h2>Muthiah Alagappa Matriculation Higher Secondary School , Kottaiyur</h2>
+                <h6>Higher Secondary Education in Computer Science with 89 %<br />2017-2018</h6>
+                
+            </div>
+
+
+        </div>
+    </section>
+
+	<section class="contact" id="contact">
+		<div class="Bottom">
+            <h3 style="background-color:#0097B2">Contact</h3>
+			<span>Manikandan Muthukumar</span></br>
+            <a href="callto:+91 9003694325" class="fa fa-phone">+91 9003694325</a></br>
+            <a href="mailto:manikandanmuthukumarkkdi@gmail.com" class="fa fa-envelope">manikandanmuthukumarkkdi@gmail.com</a></br>
+            <a href="#" class="fa fa-linkedin">LinkedIn</a></br>
+            <a href="https://github.com/MANIKANDAN6066/Portfolio/blob/main/Manikandan%20M%20B.E.pdf"><b> download </b></a>
+
+        </div>
+	</section>
+	 <script>
+		let menu = document.querySelector('#menu-icon');
+		let navbar = document.querySelector('.navbar');
+ 
+		menu.onclick = () => {
+    			navbar.classList.toggle('active');
+		}
+		window.onscroll = () => {
+    			navbar.classList.remove('active');
+		}
+	</script>
+
+
+
+		
+
+
+
+	</body></html>
